@@ -273,7 +273,7 @@ the instance parameter to calculate where the config is dropped off.
 
     httpd_config 'computers dot biz ssl_config' do
       config_name 'ssl-config'
-      httpd_instance 'computers_dot_biz'
+      instance 'computers_dot_biz'
       source 'ssl_config.erb'
       action :create
     end
